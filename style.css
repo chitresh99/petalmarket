@@ -1,0 +1,177 @@
+html,body{
+    background-color: black;
+}
+
+
+@font-face {
+    font-family: 'Antique Ancienne Italic';
+    src: url('fonts/Antique Ancienne Italic.otf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SpaceMono-Regular';
+    src: url('fonts/SpaceMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+.name{
+    font-family: 'Antique Ancienne Italic', sans-serif;
+    background-color: black;
+    height: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 5px;
+    display: flex;
+   justify-content: center;
+   
+}
+
+.name i{
+    position: absolute;
+    font-size: 1.6vw;
+    margin-top: 40px;
+    display: inline;
+    margin-left: 500px;
+}
+
+/* .button{
+    margin-top: 30px;
+    position: absolute;
+    margin-left: 1400px;
+    font-size: 20px;
+} */
+
+.message{
+    font-family: 'Antique Ancienne Italic', sans-serif;
+    background-color: black;
+    height: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+    margin-top: 5px;
+    display: flex;
+   justify-content: center;
+   margin-bottom: 0;
+}
+
+.ourshop{
+    font-family: 'SpaceMono-Regular', sans-serif;
+    background-color: black;
+    height: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+    margin-top: -5px;
+    display: flex;
+   justify-content: center;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin-left: 15%;
+}
+
+.card1{
+    height: 250px;
+    width: 200px;
+    background-color: red;
+    margin-left: 20px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.picture img {
+    
+    height: 100px;
+    width: auto;
+    margin-top: 30px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.picture h2{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-family: 'SpaceMono-Regular', sans-serif;
+    
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+.button1{
+    background-color: blue;
+    border-radius: 7px;
+}
+
+
+.card2{
+    height: 250px;
+    width: 200px;
+    background-color: red;
+    margin-left: 20px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.card3{
+    height: 250px;
+    width: 200px;
+    background-color: red;
+    margin-left: 20px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.product2{
+    display: grid;
+    padding-top: 50px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin-left: 15%;
+}
+
+.product3{
+    display: grid;
+    padding-top: 50px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin-left: 15%;
+}
+
+.buy{
+    font-family: 'SpaceMono-Regular', sans-serif;
+    background-color: black;
+    height: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+    margin-top: 10px;
+    display: flex;
+   justify-content: center;
+}
+
+.specification{
+    color: white;
+    text-align: center;
+}
