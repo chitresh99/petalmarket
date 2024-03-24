@@ -287,6 +287,7 @@ body {
 .papersection {
     display: grid;
     padding-top: 50px;
+    padding-bottom: 50px;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
     margin-left: 15%;
@@ -378,4 +379,33 @@ body {
     justify-content: center;
     font-size: 15px;
     font-family: 'SpaceMono-Regular', sans-serif;
+}
+
+.addacard{
+    font-family: 'SpaceMono-Regular', sans-serif;
+    height: 50px;
+    color: white;
+    margin-left: 15%;
+    font-size: 15px;
+}
+
+.option1{
+    color: white;
+    margin-left: 15%;
+    font-size: 15px;
+    display: flex;
+    padding-bottom: 10px;
+    
+}
+
+.option2{
+    color: white;
+    margin-left: 15%;
+    font-size: 15px;
+    display: flex;
+}
+
+.messagearea{
+    margin-top: 10px;
+    margin-left: 27%;
 }
