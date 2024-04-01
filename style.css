@@ -469,3 +469,22 @@ body {
     justify-content: center;
    
   }
+
+.pay{
+    height: 100px;
+}
+
+.pay h1{
+    color: white;
+    margin-left: 15%;
+    font-family: 'SpaceMono-Regular', sans-serif;
+    font-size: 20px;
+}
+
+.pay button{
+    background-color: blue;
+    border-radius: 7px;
+    display: flex;
+    margin-left: 15%;
+    color: white;
+}
